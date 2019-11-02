@@ -5,16 +5,17 @@
         <meta name="description" content="NoteAPP">
         <meta name="author" content="Elliot Hesp">
 
-        <title>Chrome Extension with Twitter Bootstrap 3.0</title>
+        <title>Note++</title>
 
         <!-- Scripts -->
         <script src="js/jquery-2.0.3.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/alertify.min.js"></script>
-        <script src="js/custom.js"></script>
+        <script src="js/event_listner.js"></script>
+        <script src="js/storage.js"></script>
 
         <!-- Cascading Style Sheets -->
-        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
         <link rel="stylesheet" href="css/alertify.min.css" />
         <link rel="stylesheet" href="css/themes/default.min.css" />
         <!--Custom css file -->
@@ -66,8 +67,8 @@
         </nav>
 
         <section class="notetaking currentelement">
-            <div class="form-group">
-                <textarea class="form-control" id="currentnote" rows="18"></textarea>
+            <div class="form-group" class="current_note_text_area">
+                <textarea class="form-control note_area" rows="18"></textarea>
             </div>
         </section>
 
