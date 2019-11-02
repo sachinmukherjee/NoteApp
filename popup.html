@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="NoteAPP">
+        <meta name="author" content="Elliot Hesp">
+
+        <title>Chrome Extension with Twitter Bootstrap 3.0</title>
+
+        <!-- Scripts -->
+        <script src="js/jquery-2.0.3.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/alertify.min.js"></script>
+        <script src="js/custom.js"></script>
+
+        <!-- Cascading Style Sheets -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link rel="stylesheet" href="css/alertify.min.css" />
+        <link rel="stylesheet" href="css/themes/default.min.css" />
+        <!--Custom css file -->
+        <link href="css/custom.css" rel="stylesheet" media="screen">
+
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-default" role="navigation">
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="currentnote">Work&nbsp;
+                            <b class="caret"></b>
+                        </a>
+
+                    </li>
+                    <li id="todolist">
+                        <a href="#">Too Do</a>
+                    </li>
+                    <li id="jokes">
+                        <a href="#">Jokes</a>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">Action</a>
+                            </li>
+                            <li>
+                                <a href="#">Another action</a>
+                            </li>
+                            <li>
+                                <a href="#">Something else here</a>
+                            </li>
+                            <li>
+                                <a href="#">Separated link</a>
+                            </li>
+                            <li>
+                                <a href="#">One more separated link</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="notetaking currentelement">
+            <div class="form-group">
+                <textarea class="form-control" id="currentnote" rows="18"></textarea>
+            </div>
+        </section>
+
+    </body>
+</html>
